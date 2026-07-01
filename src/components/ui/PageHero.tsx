@@ -14,7 +14,7 @@ export default function PageHero({
   imageAlt: string;
 }) {
   return (
-    <section className="relative flex h-[56vh] min-h-[380px] items-end overflow-hidden bg-ink">
+    <section className="relative flex min-h-[460px] items-end overflow-hidden bg-ink md:min-h-[520px]">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${imageUrl}')` }}
@@ -24,12 +24,12 @@ export default function PageHero({
       <div className="absolute inset-0 bg-ink/50" />
       <div className="absolute inset-0 bg-fade-ink" />
 
-      <Container className="relative z-10 pb-14 pt-32">
+      <Container className="relative z-20 pb-14 pt-[120px] sm:pt-[130px] md:pt-[140px] lg:pt-[150px] xl:pt-[160px]">
         <p className="eyebrow mb-5 text-gold-soft">
           <span className="rule-gold" aria-hidden="true" />
           {eyebrow}
         </p>
-        <h1 className="max-w-2xl font-display text-4xl font-light leading-tight text-cream md:text-5xl">
+        <h1 className="max-w-3xl font-display text-4xl font-light leading-[1.08] text-cream md:text-5xl md:leading-tight">
           {title}
         </h1>
         {subtitle && (

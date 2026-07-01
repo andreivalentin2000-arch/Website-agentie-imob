@@ -8,7 +8,7 @@ export default function Hero() {
   const { t } = useLocale();
 
   return (
-    <section className="relative flex h-[100svh] min-h-[640px] w-full items-end overflow-hidden bg-ink">
+    <section className="relative flex min-h-[100svh] w-full items-start overflow-hidden bg-ink">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -22,12 +22,12 @@ export default function Hero() {
       <div className="absolute inset-0 bg-fade-ink" />
       <div className="absolute inset-0 bg-fade-ink-top opacity-60" />
 
-      <div className="relative z-10 mx-auto w-full max-w-content px-6 pb-20 pt-40 md:px-10 md:pb-28">
+      <div className="relative z-20 mx-auto w-full max-w-[1600px] px-6 pb-20 pt-[120px] sm:px-8 sm:pt-[130px] md:pt-[140px] lg:px-12 lg:pt-[150px] xl:px-20 xl:pt-[160px] 2xl:pt-[170px]">
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="eyebrow mb-6 text-gold-soft"
+          className="eyebrow mb-5 text-gold-soft sm:mb-6"
         >
           <span className="rule-gold" aria-hidden="true" />
           {t("hero.eyebrow")}
@@ -37,7 +37,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          className="max-w-3xl font-display text-4xl font-light leading-[1.12] text-cream md:text-6xl"
+          className="max-w-4xl font-display text-[clamp(2.65rem,10.5vw,4.4rem)] font-light leading-[1.05] text-cream sm:text-[clamp(3.1rem,9vw,5rem)] md:text-[clamp(3.8rem,7vw,6rem)] md:leading-[1] lg:text-[clamp(4.1rem,5.8vw,7rem)] lg:leading-[0.98] xl:text-[clamp(4.8rem,5.3vw,7.75rem)]"
         >
           {t("hero.headline")}
         </motion.h1>
@@ -46,7 +46,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-4 max-w-2xl font-display text-2xl font-light leading-tight text-gold-soft md:text-3xl"
+          className="mt-4 max-w-3xl font-display text-xl font-light leading-tight text-gold-soft sm:text-2xl md:text-3xl"
         >
           {t("hero.supportingHeadline")}
         </motion.p>
@@ -55,7 +55,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-6 max-w-xl font-body text-base leading-relaxed text-cream/75 md:text-lg"
+          className="mt-5 max-w-2xl font-body text-base leading-relaxed text-cream/75 md:mt-6 md:text-lg"
         >
           {t("hero.subheadline")}
         </motion.p>
@@ -64,11 +64,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-10 flex flex-col items-start gap-5"
+          className="mt-8 flex max-w-full flex-col items-start gap-4 sm:mt-10 sm:gap-5"
         >
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center border border-gold bg-gold px-8 py-4 font-body text-sm uppercase tracking-widest2 text-ink transition-colors duration-300 hover:bg-gold-soft"
+            className="inline-flex w-full max-w-full items-center justify-center border border-gold bg-gold px-6 py-4 text-center font-body text-xs uppercase tracking-[0.18em] text-ink transition-colors duration-300 hover:bg-gold-soft sm:w-auto sm:px-10 sm:text-sm sm:tracking-widest2"
           >
             {t("common.bookConsultation")}
           </Link>
