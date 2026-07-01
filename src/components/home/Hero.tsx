@@ -30,7 +30,7 @@ export default function Hero() {
           className="eyebrow mb-6 text-gold-soft"
         >
           <span className="rule-gold" aria-hidden="true" />
-          Rural &amp; Heritage Estates, Romania
+          {t("hero.eyebrow")}
         </motion.p>
 
         <motion.h1
@@ -41,6 +41,15 @@ export default function Hero() {
         >
           {t("hero.headline")}
         </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 18 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
+          className="mt-4 max-w-2xl font-display text-2xl font-light leading-tight text-gold-soft md:text-3xl"
+        >
+          {t("hero.supportingHeadline")}
+        </motion.p>
 
         <motion.p
           initial={{ opacity: 0, y: 18 }}
@@ -65,6 +74,9 @@ export default function Hero() {
           </Link>
           <p className="font-body text-xs uppercase tracking-widest2 text-cream/50">
             {t("hero.trustLine")}
+          </p>
+          <p className="max-w-xl font-body text-sm leading-relaxed text-cream/60">
+            {t("hero.smallLine")}
           </p>
         </motion.div>
       </div>

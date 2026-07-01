@@ -19,7 +19,7 @@ export default async function PropertiesPage() {
       <PageHero
         eyebrow="The Collection"
         title="Curated rural properties. Not endless listings."
-        subtitle="We do not list every house we find. We select properties with real lifestyle potential, strong character and verified paperwork."
+        subtitle="Some are ready to enjoy. Some need restoration. Some could become retreats, farms or private escapes. Every property must have a reason to be here."
         imageUrl="https://images.unsplash.com/photo-1508615070457-7baeba4003ab?w=1920&q=80"
         imageAlt="Rolling Romanian countryside with scattered farmhouses"
       />

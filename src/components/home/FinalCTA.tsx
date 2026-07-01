@@ -26,7 +26,7 @@ export default function FinalCTA() {
           <h2 className="font-display text-3xl font-light leading-tight text-cream md:text-4xl">
             {t("home.final.title")}
           </h2>
-          <p className="mt-6 font-body text-[15px] leading-relaxed text-cream/70">
+          <p className="mt-6 whitespace-pre-line font-body text-[15px] leading-relaxed text-cream/70">
             {t("home.final.body")}
           </p>
           <ButtonLink href="/contact" className="mt-9">

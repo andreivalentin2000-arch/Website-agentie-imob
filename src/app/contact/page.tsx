@@ -8,7 +8,7 @@ import ConsultationForm from "@/components/forms/ConsultationForm";
 export const metadata: Metadata = {
   title: "Book a Private Consultation",
   description:
-    "Tell us what kind of life you want. We will help you understand if Romania is the right place to build it — book a private consultation today.",
+    "Tell us what kind of life you want to build in rural Romania and book a private consultation.",
 };
 
 export default function ContactPage() {
@@ -16,8 +16,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Start Here"
-        title="Your rural life in Romania does not have to start with confusion."
-        subtitle="Tell us what kind of life you want. We will help you understand if Romania is the right place to build it."
+        title="Tell us what kind of life you want to build."
+        subtitle="Not just the number of rooms. Not just the land size. Tell us what you want your days to feel like."
         imageUrl="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=1920&q=80"
         imageAlt="Quiet Romanian valley at dawn"
       />
@@ -27,27 +27,22 @@ export default function ContactPage() {
           <div className="lg:col-span-2">
             <Reveal>
               <h2 className="font-display text-2xl text-brown md:text-3xl">
-                What happens after you submit this form
+                Book a Private Consultation
               </h2>
-              <ol className="mt-6 space-y-5 font-body text-[15px] leading-relaxed text-brown/65">
-                <li>
-                  <span className="mr-2 font-display text-gold">01</span>
-                  We review your answers and match them against properties and regions that fit.
-                </li>
-                <li>
-                  <span className="mr-2 font-display text-gold">02</span>
-                  A member of our team reaches out within one business day to schedule a private
-                  consultation call.
-                </li>
-                <li>
-                  <span className="mr-2 font-display text-gold">03</span>
-                  If you opted in, we email you The International Buyer&rsquo;s Guide to Rural
-                  Property in Romania right away.
-                </li>
-              </ol>
-              <p className="mt-8 font-body text-sm text-brown/50">
-                Prefer to talk first? Once configured, this page can also open our calendar
-                directly for same-week booking.
+              <div className="mt-6 space-y-4 font-body text-[15px] leading-relaxed text-brown/65">
+                <p>Do you want your children closer to nature?</p>
+                <p>Do you want silence?</p>
+                <p>Animals?</p>
+                <p>A garden?</p>
+                <p>Mountain air?</p>
+                <p>A home you can return to?</p>
+                <p>Or a life you can fully move into?</p>
+                <p>Start with the form.</p>
+                <p>We will help you see if rural Romania fits.</p>
+              </div>
+              <p className="mt-8 font-body text-sm leading-relaxed text-brown/50">
+                Share as much as you can. The better we understand your dream, the better we can
+                guide you.
               </p>
             </Reveal>
           </div>

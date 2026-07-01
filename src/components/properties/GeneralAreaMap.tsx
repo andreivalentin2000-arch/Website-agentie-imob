@@ -24,9 +24,9 @@ export default function GeneralAreaMap({
         </div>
       </div>
       <p className="mt-6 font-body text-[13px] leading-relaxed text-cream/50">
-        To protect the privacy of current owners, we show only the general area on this page.
-        The exact address, cadastral plan and site visit scheduling are shared once you begin
-        the qualified buyer process with our team.
+        For privacy, the map shows only the general area, not the exact address. The exact
+        address, cadastral plan and site visit scheduling are shared once you begin the qualified
+        buyer process with our team.
       </p>
     </div>
   );

@@ -76,12 +76,11 @@ export default function ConsultationForm() {
     return (
       <div className="border border-gold/30 bg-cream-paper p-10 text-center">
         <CheckCircle2 size={36} strokeWidth={1.3} className="mx-auto text-gold" />
-        <h3 className="mt-5 font-display text-2xl text-brown">Thank you. We&rsquo;ve received your request.</h3>
+        <h3 className="mt-5 font-display text-2xl text-brown">Thank you. Your request has been received.</h3>
         <p className="mx-auto mt-3 max-w-md font-body text-sm leading-relaxed text-brown/60">
-          A member of our team will reach out within one business day to schedule your private
-          consultation.
+          We will review your answers and contact you to schedule a private consultation.
           {values.guideConsent &&
-            " The International Buyer's Guide to Rural Property in Romania will be sent to your email shortly."}
+            " You will also receive The International Buyer's Guide to Rural Property in Romania by email."}
         </p>
       </div>
     );

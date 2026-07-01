@@ -4,6 +4,7 @@ import Section from "@/components/ui/Section";
 import Container from "@/components/ui/Container";
 import Eyebrow from "@/components/ui/Eyebrow";
 import Reveal from "@/components/ui/Reveal";
+import { ButtonLink } from "@/components/ui/Button";
 import { useLocale } from "@/lib/locale-context";
 
 export default function BuyingProcess() {
@@ -18,6 +19,9 @@ export default function BuyingProcess() {
           <h2 className="mt-5 max-w-2xl font-display text-3xl font-light leading-tight text-brown md:text-4xl">
             {t("home.process.title")}
           </h2>
+          <p className="mt-5 max-w-2xl whitespace-pre-line font-body text-[15px] leading-relaxed text-brown/65">
+            {t("home.process.intro")}
+          </p>
         </Reveal>
 
         <div className="mt-14 grid grid-cols-1 gap-y-10 md:grid-cols-5 md:gap-x-6 md:gap-y-0">
@@ -38,6 +42,12 @@ export default function BuyingProcess() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={0.2} className="mt-14">
+          <ButtonLink href="/buying-process" variant="ghost">
+            {t("home.process.cta")}
+          </ButtonLink>
+        </Reveal>
       </Container>
     </Section>
   );

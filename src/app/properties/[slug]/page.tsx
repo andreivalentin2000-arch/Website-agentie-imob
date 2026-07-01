@@ -67,22 +67,36 @@ export default async function PropertyPage({ params }: { params: { slug: string 
           </div>
 
           <div className="mt-10">
+            <h2 className="mb-5 font-display text-2xl text-brown">Gallery</h2>
             <PropertyGallery images={property.gallery} />
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-14 lg:grid-cols-3">
             <div className="lg:col-span-2">
-              <h2 className="font-display text-2xl text-brown">The Property</h2>
+              <h2 className="font-display text-2xl text-brown">Property Overview</h2>
               <p className="mt-4 font-body text-[15px] leading-relaxed text-brown/70">
                 {property.story}
               </p>
 
-              <h3 className="mt-10 font-display text-xl text-brown">Land Details</h3>
+              <h3 className="mt-10 font-display text-xl text-brown">Why This Property Matters</h3>
+              <p className="mt-3 font-body text-[15px] leading-relaxed text-brown/70">
+                This property is presented for its lifestyle potential, rural character and general
+                area appeal. Full details are shared through the private buyer process.
+              </p>
+
+              <h3 className="mt-10 font-display text-xl text-brown">Land &amp; Lifestyle</h3>
               <p className="mt-3 font-body text-[15px] leading-relaxed text-brown/70">
                 {property.landDetails}
               </p>
 
-              <h3 className="mt-10 font-display text-xl text-brown">Lifestyle</h3>
+              <h3 className="mt-10 font-display text-xl text-brown">House &amp; Buildings</h3>
+              <p className="mt-3 font-body text-[15px] leading-relaxed text-brown/70">
+                {property.houseSizeSqm > 0
+                  ? "The house and buildings should be reviewed during a private consultation and site visit, with condition, use and restoration needs discussed before any decision."
+                  : "This is primarily a land-led opportunity. Any existing structures, access and future use should be reviewed during the private buyer process."}
+              </p>
+
+              <h3 className="mt-10 font-display text-xl text-brown">Lifestyle Markers</h3>
               <div className="mt-3 flex flex-wrap gap-2">
                 {property.lifestyleTags.map((tag) => (
                   <span
@@ -94,7 +108,7 @@ export default async function PropertyPage({ params }: { params: { slug: string 
                 ))}
               </div>
 
-              <h3 className="mt-10 font-display text-xl text-brown">Utilities</h3>
+              <h3 className="mt-10 font-display text-xl text-brown">Utilities &amp; Access</h3>
               <ul className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {property.utilities.map((u) => (
                   <li key={u} className="flex items-center gap-2 font-body text-sm text-brown/70">
@@ -104,7 +118,14 @@ export default async function PropertyPage({ params }: { params: { slug: string 
                 ))}
               </ul>
 
+              <h3 className="mt-10 font-display text-xl text-brown">Document Status</h3>
+              <p className="mt-3 font-body text-[15px] leading-relaxed text-brown/70">
+                Key property documents pre-checked before presentation. Private consultation
+                required for full details.
+              </p>
+
               <div className="mt-10">
+                <h3 className="mb-4 font-display text-xl text-brown">General Area</h3>
                 <GeneralAreaMap
                   region={property.region}
                   county={property.county}
@@ -146,7 +167,8 @@ export default async function PropertyPage({ params }: { params: { slug: string 
                   Book a Private Consultation
                 </Link>
                 <p className="mt-4 font-body text-xs leading-relaxed text-brown/45">
-                  Exact address and full documentation shared with qualified buyers.
+                  Private consultation required for full details. Exact address and full
+                  documentation are shared only with qualified buyers.
                 </p>
               </div>
             </aside>
@@ -173,14 +195,14 @@ export default async function PropertyPage({ params }: { params: { slug: string 
         <Container className="max-w-2xl">
           <p className="eyebrow mb-5 text-gold-soft">
             <span className="rule-gold" aria-hidden="true" />
-            Enquire About This Property
+            Book a Private Consultation
           </p>
           <h2 className="font-display text-3xl font-light text-cream md:text-4xl">
-            Ask us anything about {property.title.toLowerCase()}.
+            Interested in this property?
           </h2>
           <p className="mt-4 font-body text-[15px] text-cream/70">
-            We will follow up with full documentation, additional photos and answers to your
-            questions — plus general availability for a private visit.
+            We do not publish exact addresses online. Book a private consultation to receive more
+            details, understand the area and see if this property matches your goals.
           </p>
           <div className="mt-10 bg-cream p-7 md:p-10">
             <ConsultationForm />

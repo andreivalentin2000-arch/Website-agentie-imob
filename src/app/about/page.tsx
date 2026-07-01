@@ -11,15 +11,39 @@ import { ButtonLink } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "A family-led Romanian real estate and relocation company, built on real estate experience since the late 1990s and trusted relationships with notaries and legal professionals.",
+    "A new Romanian rural property agency with old roots, created for international buyers who want verified countryside and heritage properties.",
 };
+
+const values = [
+  {
+    title: "Trust before speed",
+    body: "We would rather lose a deal than push a buyer toward the wrong property.",
+  },
+  {
+    title: "Verified before presented",
+    body: "A property should not be shown seriously until its key documents and ownership status are understood.",
+  },
+  {
+    title: "Lifestyle, not just real estate",
+    body: "We care about how the property will feel to live in, not only how it looks in photos.",
+  },
+  {
+    title: "Discretion",
+    body: "We protect buyer privacy, seller privacy and exact property locations.",
+  },
+  {
+    title: "Guidance after purchase",
+    body: "The real journey starts after the keys. We stay close when practical help is needed.",
+  },
+];
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
         eyebrow="Who We Are"
-        title="Local knowledge. Old relationships. Modern standards."
+        title="A new agency with old roots."
+        subtitle="Romanian Heritage Estates was created for international buyers who want rural Romania, but do not want to face the process alone."
         imageUrl="https://images.unsplash.com/photo-1523419409543-8c1a91125174?w=1920&q=80"
         imageAlt="Romanian countryside orchard at golden hour"
       />
@@ -30,36 +54,59 @@ export default function AboutPage() {
             <Reveal>
               <Eyebrow>Our Story</Eyebrow>
               <h2 className="mt-5 font-display text-2xl text-brown md:text-3xl">
-                Built by a family with deep roots in Romanian real estate.
+                Romanian Heritage Estates is a new name.
               </h2>
               <div className="mt-6 space-y-5 font-body text-[15px] leading-relaxed text-brown/70">
+                <p>But the knowledge behind it is not new.</p>
                 <p>
-                  Romanian Heritage Estates is built by a family with deep real estate
-                  experience in Romania.
+                  Our family worked in Romanian real estate from 1998 to 2010, closing
+                  transactions, working with property owners and building strong relationships
+                  with notaries, legal professionals and local market insiders.
+                </p>
+                <p>That experience matters.</p>
+                <p>
+                  In Romania, the right property is not always easy to find online. The right
+                  people are not always easy to reach. And the right documents are not always easy
+                  to understand.
+                </p>
+                <p>We created Romanian Heritage Estates to solve that problem for international buyers.</p>
+                <p>
+                  Our role is simple: to help you find verified rural and heritage properties,
+                  understand the process and move safely from curiosity to ownership.
                 </p>
                 <p>
-                  Our founding team includes people who worked in Romanian real estate from the
-                  late 1990s to 2010, closing many transactions and building long-standing
-                  relationships with notaries, legal professionals and local property owners.
+                  We combine old local relationships with modern buyer education, international
+                  marketing and a premium concierge process.
                 </p>
-                <p>
-                  Today, we combine that local knowledge with modern international marketing,
-                  buyer education and a premium concierge process for foreign clients.
-                </p>
+                <p>For you, that means fewer unknowns. Fewer wasted trips. Fewer unsafe decisions.</p>
+                <p>And a clearer path to the life you came looking for.</p>
               </div>
             </Reveal>
 
             <Reveal delay={0.15} className="mt-14">
               <Eyebrow>Our Mission</Eyebrow>
               <h2 className="mt-5 font-display text-2xl text-brown md:text-3xl">
-                Helping international families discover a healthier, quieter life.
+                Our mission
               </h2>
               <p className="mt-6 max-w-xl font-body text-[15px] leading-relaxed text-brown/70">
-                We believe rural Romania is one of Europe&rsquo;s last authentic countryside
-                opportunities — a place where families can breathe, grow food and live closer to
-                nature, without giving up modern connection. Our mission is to make that move
-                simple, informed and fully guided, so buyers are never navigating it alone.
+                To help international families discover, understand and safely buy rural
+                properties in Romania - while protecting the beauty, dignity and heritage of the
+                places we represent.
               </p>
+            </Reveal>
+
+            <Reveal delay={0.2} className="mt-14">
+              <Eyebrow>Values</Eyebrow>
+              <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                {values.map((value) => (
+                  <div key={value.title} className="border-t border-brown/10 pt-5">
+                    <h3 className="font-display text-xl text-brown">{value.title}</h3>
+                    <p className="mt-2 font-body text-sm leading-relaxed text-brown/65">
+                      {value.body}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </Reveal>
           </div>
 
@@ -87,8 +134,7 @@ export default function AboutPage() {
               Discretion, verified properties and full guidance.
             </h2>
             <p className="mt-5 font-body text-[15px] leading-relaxed text-cream/70">
-              Every family we work with deserves a private, unhurried process — and a team that
-              stays with them long after the notary appointment.
+              We help you move from curiosity to ownership with fewer unknowns.
             </p>
             <ButtonLink href="/contact" className="mt-8">
               Book a Private Consultation

@@ -18,6 +18,9 @@ export default function WhyRomania() {
           <h2 className="mt-5 max-w-2xl font-display text-3xl font-light leading-tight text-brown md:text-4xl">
             {t("home.why.title")}
           </h2>
+          <p className="mt-5 max-w-2xl whitespace-pre-line font-body text-[15px] leading-relaxed text-brown/65">
+            {t("home.why.intro")}
+          </p>
         </Reveal>
 
         <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden border border-brown/10 bg-brown/10 md:grid-cols-3">

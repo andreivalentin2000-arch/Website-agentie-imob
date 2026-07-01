@@ -5,7 +5,7 @@ import { useLocale } from "@/lib/locale-context";
 
 export default function DreamOutcome() {
   const { t } = useLocale();
-  const lines = ["line1", "line2", "line3", "line4", "line5"];
+  const lines = ["line1", "line2", "line3", "line4", "line5", "line6"];
 
   return (
     <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-ink">
@@ -37,7 +37,7 @@ export default function DreamOutcome() {
           </Reveal>
 
           <Reveal delay={0.3} className="mt-10 border-l-2 border-gold pl-6">
-            <p className="font-display text-xl italic text-gold-soft md:text-2xl">
+            <p className="whitespace-pre-line font-display text-xl italic text-gold-soft md:text-2xl">
               {t("home.dream.quote")}
             </p>
           </Reveal>

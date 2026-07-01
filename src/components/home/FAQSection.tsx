@@ -11,7 +11,7 @@ import { useLocale } from "@/lib/locale-context";
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const { t } = useLocale();
-  const faqItems = [1, 2, 3, 4, 5];
+  const faqItems = [1, 2, 3, 4, 5, 6, 7];
 
   return (
     <Section tone="cream">

@@ -19,7 +19,7 @@ export default function LeadMagnet() {
           <h2 className="mt-6 font-display text-3xl font-light leading-tight text-cream md:text-4xl">
             {t("home.guide.title")}
           </h2>
-          <p className="mt-5 font-body text-[15px] leading-relaxed text-cream/70">
+          <p className="mt-5 whitespace-pre-line font-body text-[15px] leading-relaxed text-cream/70">
             {t("home.guide.body")}
           </p>
           <ButtonLink href="/contact#guide" className="mt-8">

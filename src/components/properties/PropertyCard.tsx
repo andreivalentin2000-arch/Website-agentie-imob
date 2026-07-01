@@ -36,7 +36,10 @@ export default function PropertyCard({ property, index = 0 }: { property: Proper
           )}
           <div className="absolute inset-x-0 bottom-0 p-5">
             <p className="font-body text-[11px] uppercase tracking-widest2 text-cream/70">
-              {property.region} · {property.county}
+              {property.region} &middot; {property.county}
+            </p>
+            <p className="mt-1 font-body text-[10px] uppercase tracking-widest2 text-cream/55">
+              {t("common.generalAreaNotice")}
             </p>
           </div>
         </div>
@@ -54,11 +57,11 @@ export default function PropertyCard({ property, index = 0 }: { property: Proper
             </div>
             <div>
               <dt className="text-[10px] uppercase tracking-wide text-brown/40">House</dt>
-              <dd>{property.houseSizeSqm > 0 ? `${property.houseSizeSqm} m²` : "—"}</dd>
+              <dd>{property.houseSizeSqm > 0 ? `${property.houseSizeSqm} m²` : "-"}</dd>
             </div>
             <div>
               <dt className="text-[10px] uppercase tracking-wide text-brown/40">Rooms</dt>
-              <dd>{property.rooms > 0 ? property.rooms : "—"}</dd>
+              <dd>{property.rooms > 0 ? property.rooms : "-"}</dd>
             </div>
           </dl>
 

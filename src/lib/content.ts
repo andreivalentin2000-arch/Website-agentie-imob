@@ -1,23 +1,23 @@
 export const buyingProcessSteps = [
   {
     title: "Private Consultation",
-    body: "We learn what kind of life you want, your budget, your timeline and your non-negotiables.",
+    body: "We begin with a private call.\n\nWe ask what kind of life you want, what your family needs, what budget you have, when you want to buy and what would make Romania feel right for you.\n\nThis is not only about bedrooms and square meters.\n\nIt is about the life you want to wake up in.",
   },
   {
-    title: "Curated Shortlist",
-    body: "We show you selected properties that match your lifestyle, not random listings.",
+    title: "Buyer Profile & Curated Shortlist",
+    body: "After the call, we build your buyer profile.\n\nThen we search for properties that match your real goals: land, peace, views, access, utilities, internet, farming potential, privacy, condition and lifestyle.\n\nYou do not receive endless listings.\n\nYou receive selected options.",
   },
   {
-    title: "Romania Visit",
-    body: "We help with airport pickup, accommodation and private property tours.",
+    title: "Private Visit to Romania",
+    body: "When you are ready to see properties, we help plan the visit.\n\nWe can support airport pickup, accommodation, routes, property tours and local context.\n\nYou do not arrive confused.\n\nYou arrive with a plan.",
   },
   {
-    title: "Legal & Notary Process",
-    body: "Our trusted legal and notary partners help verify the property and move the process forward.",
+    title: "Legal Review & Notary Process",
+    body: "Before moving forward, the property documents are checked.\n\nOur trusted legal and notary partners help review the key papers and guide the signing process.\n\nThe goal is simple: you understand what you are buying before you buy it.",
   },
   {
-    title: "Keys & Aftercare",
-    body: "After purchase, we help you settle in, connect with local services and understand what comes next.",
+    title: "Keys, Setup & Life After Purchase",
+    body: "After signing, you receive the keys.\n\nBut you may still need help.\n\nUtilities. Internet. Local contacts. Renovation. Translation. Practical setup.\n\nWe stay close after purchase, so your new life in Romania starts with less stress.",
   },
 ];
 
@@ -30,7 +30,7 @@ export const faqItems = [
   {
     question: "Can foreigners buy property in Romania?",
     answer:
-      "In many cases, yes, but the process depends on citizenship, property type and land structure. We guide buyers through the right legal path with trusted specialists.",
+      "In many cases, yes. The process depends on citizenship, property type and land structure. We guide buyers through the right legal path with trusted specialists.",
   },
   {
     question: "Can I work remotely from rural Romania?",
@@ -40,12 +40,22 @@ export const faqItems = [
   {
     question: "Will I see the exact property location online?",
     answer:
-      "No. To protect owners and buyers, we show the general area. Exact details are shared during the qualified buyer process.",
+      "No. To protect owners and buyers, we show only the general area. Exact details are shared during the qualified buyer process.",
   },
   {
     question: "Do you help after the purchase?",
     answer:
       "Yes. We can help with utilities, local contacts, renovation partners, translation, practical setup and settling in.",
+  },
+  {
+    question: "Do you only sell move-in ready homes?",
+    answer:
+      "No. Some homes are move-in ready. Others need restoration. We focus on properties with real lifestyle potential, character and clean documentation.",
+  },
+  {
+    question: "Do you show prices online?",
+    answer:
+      "Not at this stage. Most properties are listed as Price on request. Details are shared during the private buyer process.",
   },
 ];
 

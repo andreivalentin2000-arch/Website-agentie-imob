@@ -21,7 +21,7 @@ export default function PropertiesPreview({ properties }: { properties: Property
             <h2 className="mt-5 max-w-xl font-display text-3xl font-light leading-tight text-brown md:text-4xl">
               {t("home.properties.title")}
             </h2>
-            <p className="mt-4 max-w-lg font-body text-[15px] leading-relaxed text-brown/60">
+            <p className="mt-4 max-w-lg whitespace-pre-line font-body text-[15px] leading-relaxed text-brown/60">
               {t("home.properties.body")}
             </p>
           </div>
