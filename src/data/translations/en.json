@@ -1,0 +1,24 @@
+{
+  "nav.properties": "Properties",
+  "nav.services": "Services",
+  "nav.buyingProcess": "Buying Process",
+  "nav.about": "About",
+  "nav.contact": "Contact",
+  "nav.cta": "Book a Private Consultation",
+
+  "footer.tagline": "Own land. Live well. Start in Romania.",
+  "footer.rights": "All rights reserved.",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms & Conditions",
+
+  "common.priceOnRequest": "Price on request",
+  "common.viewProperty": "View Property",
+  "common.bookConsultation": "Book a Private Consultation",
+  "common.learnMore": "Learn more",
+  "common.documentsVerified": "Documents Verified",
+  "common.generalAreaNotice": "General area shown. Exact location shared with qualified buyers.",
+
+  "hero.headline": "What if your family's next chapter started with land, silence and mountain air?",
+  "hero.subheadline": "We help international buyers find verified rural estates in Romania — and guide the full journey from first call to notary, keys and life after purchase.",
+  "hero.trustLine": "Curated rural homes. Verified paperwork. Full buying support."
+}

@@ -1,0 +1,24 @@
+{
+  "nav.properties": "Proprietăți",
+  "nav.services": "Servicii",
+  "nav.buyingProcess": "Procesul de achiziție",
+  "nav.about": "Despre noi",
+  "nav.contact": "Contact",
+  "nav.cta": "Programează o consultație privată",
+
+  "footer.tagline": "Deține pământ. Trăiește bine. Începe în România.",
+  "footer.rights": "Toate drepturile rezervate.",
+  "footer.privacy": "Politica de confidențialitate",
+  "footer.terms": "Termeni și condiții",
+
+  "common.priceOnRequest": "Preț la cerere",
+  "common.viewProperty": "Vezi proprietatea",
+  "common.bookConsultation": "Programează o consultație privată",
+  "common.learnMore": "Află mai multe",
+  "common.documentsVerified": "Documente verificate",
+  "common.generalAreaNotice": "Este afișată zona generală. Locația exactă este oferită cumpărătorilor calificați.",
+
+  "hero.headline": "Dacă următorul capitol al familiei tale ar începe cu pământ, liniște și aer de munte?",
+  "hero.subheadline": "Ajutăm cumpărători internaționali să găsească proprietăți rurale verificate în România — și îi ghidăm pe tot parcursul, de la primul apel până la notar, chei și viața de după achiziție.",
+  "hero.trustLine": "Case rurale atent selectate. Acte verificate. Sprijin complet la achiziție."
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "slug": "carpathian-manor-brasov",
+    "title": "A Restored Manor at the Edge of the Forest",
+    "region": "Transylvania",
+    "county": "Brașov County",
+    "generalArea": "Bran–Moeciu area",
+    "landSizeSqm": 42000,
+    "houseSizeSqm": 480,
+    "rooms": 9,
+    "utilities": ["Grid electricity", "Private well", "Fiber internet", "Septic system"],
+    "condition": "lightly-renovated",
+    "propertyType": "manor-estate",
+    "lifestyleTags": [
+      "mountain-view",
+      "heritage-character",
+      "near-forest",
+      "estate-potential",
+      "verified-documents",
+      "remote-work-potential"
+    ],
+    "documentsVerified": true,
+    "summary": "A 19th-century manor house facing the Carpathians, restored with respect for its original stone and timber.",
+    "story": "The house was built by a forestry family in the late 1800s, and it still carries their sense of proportion. Thick stone walls keep it cool in summer. A covered veranda faces the mountains directly, with nothing built in between. The current owners restored the roof, the wiring and the heating system, but left the original floors and staircase untouched.",
+    "landDetails": "42,000 sqm across three parcels: an orchard of old apple and plum trees, a hay meadow, and a strip of mixed forest along the northern boundary. Fully fenced on the road-facing side.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1400&q=80",
+      "alt": "Stone manor house with mountain backdrop",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1400&q=80", "alt": "Manor exterior facing the mountains", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=80", "alt": "Restored living room with original beams", "category": "interior" },
+      { "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80", "alt": "Stone courtyard with wooden gate", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1523419409543-8c1a91125174?w=1400&q=80", "alt": "Orchard and hay meadow", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1400&q=80", "alt": "Aerial view of the manor and surrounding land", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1400&q=80", "alt": "Upstairs bedroom with mountain view", "category": "rooms" },
+      { "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1400&q=80", "alt": "Original stone barn used for storage", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 45.5149, "lng": 25.3672, "zoomLevel": 9 },
+    "featured": true
+  },
+  {
+    "slug": "submontane-farmhouse-sibiu",
+    "title": "A Working Farmhouse Below the Foothills",
+    "region": "Transylvania",
+    "county": "Sibiu County",
+    "generalArea": "Mărginimea Sibiului area",
+    "landSizeSqm": 18500,
+    "houseSizeSqm": 260,
+    "rooms": 6,
+    "utilities": ["Grid electricity", "Municipal water", "Wood heating", "Fiber internet"],
+    "condition": "move-in-ready",
+    "propertyType": "farmhouse",
+    "lifestyleTags": [
+      "large-garden",
+      "orchard",
+      "suitable-for-farming",
+      "move-in-ready",
+      "verified-documents",
+      "submontane-area"
+    ],
+    "documentsVerified": true,
+    "summary": "A working farmhouse with barns, a walnut orchard, and pasture already fenced for animals.",
+    "story": "This property has been continuously farmed for three generations. The current owners kept sheep and grew vegetables for the local market. The house was updated in the last decade — new roof, new windows, working fireplace — while the barns and outbuildings remain original and structurally sound.",
+    "landDetails": "18,500 sqm split between a fenced pasture, a kitchen garden, and a walnut and plum orchard. A seasonal stream runs along the eastern edge.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1400&q=80",
+      "alt": "Traditional farmhouse with barn",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1400&q=80", "alt": "Farmhouse exterior", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1400&q=80", "alt": "Farmhouse kitchen", "category": "interior" },
+      { "url": "https://images.unsplash.com/photo-1585128993280-9456c19c0eb1?w=1400&q=80", "alt": "Courtyard between house and barn", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1400&q=80", "alt": "Walnut orchard", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1400&q=80", "alt": "Aerial view of the farm and pastures", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=1400&q=80", "alt": "Main bedroom", "category": "rooms" },
+      { "url": "https://images.unsplash.com/photo-1544984243-ec57ea16fe25?w=1400&q=80", "alt": "Original stone barn", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 45.7333, "lng": 24.2167, "zoomLevel": 9 },
+    "featured": true
+  },
+  {
+    "slug": "mountain-chalet-maramures",
+    "title": "A Timber Chalet Above the Valley",
+    "region": "Maramureș",
+    "county": "Maramureș County",
+    "generalArea": "Vișeu Valley area",
+    "landSizeSqm": 9800,
+    "houseSizeSqm": 190,
+    "rooms": 5,
+    "utilities": ["Grid electricity", "Private spring water", "Fiber internet", "Wood heating"],
+    "condition": "move-in-ready",
+    "propertyType": "mountain-chalet",
+    "lifestyleTags": [
+      "mountain-view",
+      "near-forest",
+      "move-in-ready",
+      "remote-work-potential",
+      "verified-documents",
+      "renovation-potential"
+    ],
+    "documentsVerified": true,
+    "summary": "A hand-built timber chalet with uninterrupted valley views and forest on three sides.",
+    "story": "Built in traditional Maramureș style by a local carpenter, this chalet uses timber from the surrounding forest. Large windows were added facing the valley to bring in the view without changing the character of the structure. It has been used as a family holiday home and needs only light personalization to become a full-time residence.",
+    "landDetails": "9,800 sqm of gently sloped forest-edge land, partly wooded, with a cleared area around the house for a garden or small orchard.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1400&q=80",
+      "alt": "Timber chalet with mountain valley view",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1400&q=80", "alt": "Chalet exterior facing the valley", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1400&q=80", "alt": "Timber interior with large windows", "category": "interior" },
+      { "url": "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?w=1400&q=80", "alt": "Wooden deck and courtyard", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1471115853179-bb1d604434e0?w=1400&q=80", "alt": "Forest edge and garden clearing", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1400&q=80", "alt": "Aerial view of the chalet and surrounding forest", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1400&q=80", "alt": "Bedroom with valley view", "category": "rooms" },
+      { "url": "https://images.unsplash.com/photo-1489493887464-892be6d1daae?w=1400&q=80", "alt": "Woodshed and storage building", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 47.7167, "lng": 24.4333, "zoomLevel": 9 },
+    "featured": true
+  },
+  {
+    "slug": "heritage-village-house-tara-luipulu",
+    "title": "A Heritage House on the Village Square",
+    "region": "Bucovina",
+    "county": "Suceava County",
+    "generalArea": "Southern Bucovina area",
+    "landSizeSqm": 3200,
+    "houseSizeSqm": 140,
+    "rooms": 4,
+    "utilities": ["Grid electricity", "Municipal water", "Fiber internet"],
+    "condition": "renovation-potential",
+    "propertyType": "village-house",
+    "lifestyleTags": [
+      "heritage-character",
+      "large-garden",
+      "renovation-potential",
+      "remote-work-potential",
+      "verified-documents"
+    ],
+    "documentsVerified": true,
+    "summary": "A painted Bucovina house with original wood carving details, close to the village center.",
+    "story": "This house sits on the village's main road, with carved wooden eaves and a painted facade typical of the region. Structurally sound, it is ready for a sensitive renovation that keeps its character while updating comfort. Neighbors still remember the family who built it in the 1930s.",
+    "landDetails": "3,200 sqm garden with mature fruit trees, a small outbuilding, and space for a vegetable plot. Flat, usable land in the village core.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80",
+      "alt": "Traditional painted village house",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1400&q=80", "alt": "Village house exterior with carved details", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1400&q=80", "alt": "Original interior room", "category": "interior" },
+      { "url": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1400&q=80", "alt": "Front courtyard and gate", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1400&q=80", "alt": "Garden with fruit trees", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1400&q=80", "alt": "Aerial view of the village plot", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1505691723518-36a5ac3b2d94?w=1400&q=80", "alt": "Bedroom in original condition", "category": "rooms" },
+      { "url": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1400&q=80", "alt": "Small storage outbuilding", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 47.6167, "lng": 25.55, "zoomLevel": 9 },
+    "featured": false
+  },
+  {
+    "slug": "estate-land-apuseni",
+    "title": "Open Land with Mountain Frontage",
+    "region": "Apuseni Mountains",
+    "county": "Alba County",
+    "generalArea": "Apuseni foothills area",
+    "landSizeSqm": 65000,
+    "houseSizeSqm": 0,
+    "rooms": 0,
+    "utilities": ["Road access", "Grid electricity at boundary", "Private spring on site"],
+    "condition": "renovation-potential",
+    "propertyType": "land-with-structures",
+    "lifestyleTags": [
+      "mountain-view",
+      "suitable-for-farming",
+      "near-forest",
+      "estate-potential",
+      "verified-documents"
+    ],
+    "documentsVerified": true,
+    "summary": "65,000 sqm of open pasture and forest edge, unbuilt, with road access and a spring on site.",
+    "story": "This is raw opportunity for families who want to design their own estate from the ground up. The land has been used for grazing for decades and includes a small stone foundation from a shepherd's hut, which could anchor a new build. Road access reaches the boundary; a private spring rises near the northern edge.",
+    "landDetails": "65,000 sqm across open pasture, forest edge and a small stream corridor. Boundaries marked and cadastral survey complete.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1400&q=80",
+      "alt": "Open mountain pasture land",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=1400&q=80", "alt": "Open pasture with mountain backdrop", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1400&q=80", "alt": "Aerial view of the full parcel", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1400&q=80", "alt": "Forest edge boundary", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1470770903676-69b98201ea1c?w=1400&q=80", "alt": "Stream corridor on the property", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1444464666168-49d633b86797?w=1400&q=80", "alt": "Old stone foundation on site", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 46.4667, "lng": 23.05, "zoomLevel": 9 },
+    "featured": false
+  },
+  {
+    "slug": "riverside-estate-covasna",
+    "title": "A Riverside Estate with Orchard and Springs",
+    "region": "Covasna Foothills",
+    "county": "Covasna County",
+    "generalArea": "Upper Covasna Valley",
+    "landSizeSqm": 27000,
+    "houseSizeSqm": 320,
+    "rooms": 7,
+    "utilities": ["Grid electricity", "Private well", "Mineral spring on site", "Fiber internet"],
+    "condition": "lightly-renovated",
+    "propertyType": "heritage-property",
+    "lifestyleTags": [
+      "large-garden",
+      "orchard",
+      "near-forest",
+      "estate-potential",
+      "heritage-character",
+      "verified-documents",
+      "remote-work-potential"
+    ],
+    "documentsVerified": true,
+    "summary": "A riverside estate with its own mineral spring, orchard, and forest bordering two sides.",
+    "story": "Set along a quiet river bend, this estate has been in the same family since the 1970s. It includes a natural mineral spring — common to this part of Covasna — piped to a small stone basin near the garden. The main house was rewired and re-roofed five years ago; the interior retains its original tiled stoves.",
+    "landDetails": "27,000 sqm including riverside frontage, an established orchard, a hay field, and forest bordering the northern and eastern edges.",
+    "coverImage": {
+      "url": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=1400&q=80",
+      "alt": "Riverside estate house with orchard",
+      "category": "exterior"
+    },
+    "gallery": [
+      { "url": "https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=1400&q=80", "alt": "Estate house exterior near the river", "category": "exterior" },
+      { "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=1400&q=80", "alt": "Living room with original tiled stove", "category": "interior" },
+      { "url": "https://images.unsplash.com/photo-1600566752734-2a0cd0af9e11?w=1400&q=80", "alt": "Stone courtyard", "category": "courtyard" },
+      { "url": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1400&q=80", "alt": "Orchard and hay field", "category": "garden" },
+      { "url": "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1400&q=80", "alt": "Aerial view of the estate and river bend", "category": "air-view" },
+      { "url": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=1400&q=80", "alt": "Guest bedroom", "category": "rooms" },
+      { "url": "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=1400&q=80", "alt": "Spring house and stone basin", "category": "outbuildings" }
+    ],
+    "mapArea": { "lat": 45.85, "lng": 25.9833, "zoomLevel": 9 },
+    "featured": true
+  }
+]
