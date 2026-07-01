@@ -29,7 +29,10 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
     const stored = window.localStorage.getItem(STORAGE_KEY) as Locale | null;
     if (stored === "en" || stored === "ro") {
       setLocaleState(stored);
+      document.documentElement.lang = stored;
+      return;
     }
+    document.documentElement.lang = defaultLocale;
   }, []);
 
   const setLocale = useCallback((next: Locale) => {
