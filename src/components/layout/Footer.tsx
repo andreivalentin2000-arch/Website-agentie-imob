@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow mb-4 text-gold-soft">Explore</p>
+          <p className="eyebrow mb-4 text-gold-soft">{t("footer.explore")}</p>
           <ul className="space-y-2 font-body text-sm">
             <li><Link href="/properties" className="hover:text-gold">{t("nav.properties")}</Link></li>
             <li><Link href="/services" className="hover:text-gold">{t("nav.services")}</Link></li>
@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow mb-4 text-gold-soft">Legal</p>
+          <p className="eyebrow mb-4 text-gold-soft">{t("footer.legal")}</p>
           <ul className="space-y-2 font-body text-sm">
             <li><Link href="/privacy-policy" className="hover:text-gold">{t("footer.privacy")}</Link></li>
             <li><Link href="/terms" className="hover:text-gold">{t("footer.terms")}</Link></li>
@@ -42,7 +42,7 @@ export default function Footer() {
       <div className="border-t border-cream/10">
         <Container className="flex flex-col items-center justify-between gap-2 py-6 font-body text-xs text-cream/40 md:flex-row">
           <p>&copy; {year} Romanian Heritage Estates. {t("footer.rights")}</p>
-          <p>Curated rural homes. Verified paperwork. Full buying support.</p>
+          <p>{t("footer.bottom")}</p>
         </Container>
       </div>
     </footer>

@@ -1,6 +1,12 @@
+"use client";
+
 import Reveal from "@/components/ui/Reveal";
+import { useLocale } from "@/lib/locale-context";
 
 export default function DreamOutcome() {
+  const { t } = useLocale();
+  const lines = ["line1", "line2", "line3", "line4", "line5"];
+
   return (
     <section className="relative flex min-h-[85vh] items-center overflow-hidden bg-ink">
       <div
@@ -19,24 +25,20 @@ export default function DreamOutcome() {
         <div className="max-w-xl">
           <Reveal>
             <p className="eyebrow mb-6 text-gold-soft">
-              <span className="rule-gold" aria-hidden="true" />A Different Way to Live
+              <span className="rule-gold" aria-hidden="true" />{t("home.dream.eyebrow")}
             </p>
             <h2 className="font-display text-3xl font-light leading-tight text-cream md:text-5xl">
-              A slower life. A stronger family. A home with land.
+              {t("home.dream.title")}
             </h2>
           </Reveal>
 
           <Reveal delay={0.15} className="mt-8 space-y-2 font-body text-lg leading-relaxed text-cream/80">
-            <p>Wake up to hills, forests or mountains.</p>
-            <p>Drink coffee in your own garden.</p>
-            <p>Grow food your children can pick with their hands.</p>
-            <p>Keep animals, if the property and local rules allow it.</p>
-            <p>Work online from a quiet home, then step outside into real nature.</p>
+            {lines.map((key) => <p key={key}>{t(`home.dream.${key}`)}</p>)}
           </Reveal>
 
           <Reveal delay={0.3} className="mt-10 border-l-2 border-gold pl-6">
             <p className="font-display text-xl italic text-gold-soft md:text-2xl">
-              This is not about escaping life. It is about choosing a better one.
+              {t("home.dream.quote")}
             </p>
           </Reveal>
         </div>

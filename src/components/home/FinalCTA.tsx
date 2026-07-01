@@ -1,8 +1,13 @@
+"use client";
+
 import Container from "@/components/ui/Container";
 import Reveal from "@/components/ui/Reveal";
 import { ButtonLink } from "@/components/ui/Button";
+import { useLocale } from "@/lib/locale-context";
 
 export default function FinalCTA() {
+  const { t } = useLocale();
+
   return (
     <section className="relative overflow-hidden bg-ink py-24 md:py-32">
       <div
@@ -19,14 +24,13 @@ export default function FinalCTA() {
       <Container className="relative z-10 max-w-2xl text-center">
         <Reveal>
           <h2 className="font-display text-3xl font-light leading-tight text-cream md:text-4xl">
-            Your rural life in Romania does not have to start with confusion.
+            {t("home.final.title")}
           </h2>
           <p className="mt-6 font-body text-[15px] leading-relaxed text-cream/70">
-            Tell us what kind of life you want. We will help you understand if Romania is the
-            right place to build it.
+            {t("home.final.body")}
           </p>
           <ButtonLink href="/contact" className="mt-9">
-            Book a Private Consultation
+            {t("common.bookConsultation")}
           </ButtonLink>
         </Reveal>
       </Container>

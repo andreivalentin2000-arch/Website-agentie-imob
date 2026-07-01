@@ -6,18 +6,20 @@ import Section from "@/components/ui/Section";
 import Container from "@/components/ui/Container";
 import Eyebrow from "@/components/ui/Eyebrow";
 import Reveal from "@/components/ui/Reveal";
-import { faqItems } from "@/lib/content";
+import { useLocale } from "@/lib/locale-context";
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const { t } = useLocale();
+  const faqItems = [1, 2, 3, 4, 5];
 
   return (
     <Section tone="cream">
       <Container className="max-w-3xl">
         <Reveal>
-          <Eyebrow>Common Questions</Eyebrow>
+          <Eyebrow>{t("home.faq.eyebrow")}</Eyebrow>
           <h2 className="mt-5 font-display text-3xl font-light leading-tight text-brown md:text-4xl">
-            You may be wondering&hellip;
+            {t("home.faq.title")}
           </h2>
         </Reveal>
 
@@ -25,7 +27,7 @@ export default function FAQSection() {
           {faqItems.map((item, i) => {
             const open = openIndex === i;
             return (
-              <div key={item.question}>
+              <div key={item}>
                 <button
                   type="button"
                   onClick={() => setOpenIndex(open ? null : i)}
@@ -33,7 +35,7 @@ export default function FAQSection() {
                   className="flex w-full items-center justify-between gap-6 py-6 text-left"
                 >
                   <span className="font-display text-lg text-brown md:text-xl">
-                    {item.question}
+                    {t(`home.faq.q${item}`)}
                   </span>
                   <Plus
                     size={20}
@@ -51,7 +53,7 @@ export default function FAQSection() {
                 >
                   <div className="overflow-hidden">
                     <p className="max-w-2xl font-body text-[15px] leading-relaxed text-brown/65">
-                      {item.answer}
+                      {t(`home.faq.a${item}`)}
                     </p>
                   </div>
                 </div>
